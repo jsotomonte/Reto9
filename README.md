@@ -1,6 +1,6 @@
 # Reto9
 Escribir funciones pasadas en lambdas 
-## A.
+## Primera función
 ### Función para determinar el cambio de un mercado o si fue exacto 
 ````python
 Compra = lambda P, M, H, PAN = float(300), LECHE = float(3300), HUEVOS = float(350) : PAN * P + LECHE * M + HUEVOS * H
@@ -25,7 +25,7 @@ if __name__ == "__main__":
         print("El pago fue exacto")
 
 ````
-## B. 
+## Segunda función
 ### función para determinar el valor de un prestamo 
 ````python
 Valorprestamo = lambda C, i, n: C * (1 + (i / 100)) ** n
@@ -40,7 +40,7 @@ if __name__ == "__main__":
     print("El valor del préstamo es " + str(valorfinalimit))
 
 ````
-## C.
+## tercera función 
 ### Cantidad de carne comprada 
 ````python
 Carnetotal = lambda N, M, K, GALLINAS = float(6), GALLOS = float(7), POLLITOS = float(1) : GALLINAS * N + GALLOS * M + POLLITOS * K
@@ -56,7 +56,7 @@ if __name__ == "__main__":
 
 # Parte 2. 
 Escoger otras tres funciones y escribirlas con argumentos no definidos 
-## A. 
+## Primera función  
 ### Operaciones de 5 terminos (promedio, mediana, mayor, menor, oden ascendente y descendente)
 ````python
 def Promedio(*args):
@@ -150,7 +150,7 @@ if __name__ == "__main__":
     print("Raíz Cúbica del Menor Valor: " + str(raiz_cubica_menor))
 
 ````
-## B. 
+## Segunda función  
 ### Función de contagiados através del tiempo  
 ````python
 def Contagios(*args):
@@ -169,7 +169,7 @@ if __name__ == "__main__":
     print("El número de contagiados en " + str(D) + " días es de " + str(contagiosfinal))
 
 ````
-## C. 
+## Tercera función  
 ### Volumen de solidos y sumatoria total 
 ````python
 import math
